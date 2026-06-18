@@ -1,4 +1,4 @@
-24935504923110586
+24939068376310771
 4766T
 MULTIWATT15H
 Multiwatt 15-pin horizontal package
@@ -55608,6 +55608,13 @@ Integrated Circuit
 28
 28
 Custom
+PCM5242
+
+PCM5242RHBR 
+0
+49
+34
+Custom
 PGA2311SMD
 DW0016A
 Integrated Circuit
@@ -55796,6 +55803,13 @@ Integrated Circuit
 0
 21
 21
+Custom
+TPS7A3901DSCR
+
+TPS7A3901DSCR 
+0
+15
+12
 Custom
 TPS7A4901
 DGN0008D
