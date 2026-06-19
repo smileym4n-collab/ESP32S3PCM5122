@@ -1064,7 +1064,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 95.25) (xy 171.45 95.25)
+			(xy 135.89 95.25) (xy 170.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1091,16 +1091,6 @@
 			(type default)
 		)
 		(uuid "288266f8-674b-462a-8abe-4f49e856fd21")
-	)
-	(wire
-		(pts
-			(xy 58.42 95.25) (xy 67.31 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ba52419-c6e3-4bab-b3d0-4aaed21f24df")
 	)
 	(wire
 		(pts
@@ -1244,6 +1234,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af2935d-b108-4f1c-a45f-0cc3c98acdc5")
+	)
+	(wire
+		(pts
 			(xy 130.81 97.79) (xy 130.81 120.65)
 		)
 		(stroke
@@ -1344,16 +1344,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 72.39 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a79e4705-bdac-46cd-a9c4-99fc2999edae")
-	)
-	(wire
-		(pts
 			(xy 135.89 120.65) (xy 135.89 107.95)
 		)
 		(stroke
@@ -1384,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 44.45) (xy 149.86 44.45)
+			(xy 128.27 44.45) (xy 168.91 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1441,6 +1431,16 @@
 			(type default)
 		)
 		(uuid "cadc03aa-fb56-4384-b778-1855ff094614")
+	)
+	(wire
+		(pts
+			(xy 44.45 95.25) (xy 67.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1bf058-1a79-46a3-9566-b0d022040b2e")
 	)
 	(wire
 		(pts
@@ -1552,6 +1552,50 @@
 		)
 		(uuid "ffb6d7ee-2da4-4042-9ffa-d58cdbbf1978")
 	)
+	(hierarchical_label "DAC3V3ANA"
+		(shape output)
+		(at 170.18 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "219dd120-7342-49bb-b098-bdf448585471")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 44.45 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e558397-9b52-4764-abb9-0a345a2db029")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 44.45 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e81a1ce6-51ce-45f2-b6c9-7bde870902bf")
+	)
+	(hierarchical_label "DAC3V3DIG"
+		(shape output)
+		(at 168.91 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e86fd637-6652-42a4-92b8-450c8c9a67d4")
+	)
 	(symbol
 		(lib_id "Custom:TPS7A2033PDBVR")
 		(at 93.98 41.91 0)
@@ -1570,7 +1614,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A2033PDBVR"
+		(property "Value" "TPS7A2033"
 			(at 106.68 36.83 0)
 			(effects
 				(font
@@ -2456,7 +2500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
+		(property "Footprint" "Custom:LT3042"
 			(at 121.92 187.63 0)
 			(effects
 				(font

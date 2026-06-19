@@ -1231,71 +1231,38 @@
 		)
 		(uuid "e5f01fd0-8605-4d5b-91a5-8fe09a857eb3")
 	)
-	(global_label "D+"
-		(shape output)
-		(at 86.36 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7af6e4da-463d-412a-83e2-3eea7fab3279")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5324 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
+	(hierarchical_label "VBUS"
 		(shape output)
 		(at 170.18 29.21 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e375f023-1f6e-4b58-bf45-4d27d8b31428")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 21.3262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "99318de3-0132-4042-bbad-47b004c02bec")
 	)
-	(global_label "D-"
+	(hierarchical_label "D-"
 		(shape output)
 		(at 86.36 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f87ce76e-73be-4e8e-804a-66eb69171f9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5324 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "c23294cb-ef4d-4a28-973d-ca2ad8a61704")
+	)
+	(hierarchical_label "D+"
+		(shape output)
+		(at 86.36 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "da46bd3a-27b1-4247-9c1b-e8c1dcdbc392")
 	)
 	(symbol
 		(lib_id "power:GND")

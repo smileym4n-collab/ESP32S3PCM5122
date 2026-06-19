@@ -1197,49 +1197,27 @@
 		)
 		(uuid "fd159bdf-82a7-45bc-8da6-8fd84245ce3a")
 	)
-	(global_label "ESP3V3"
-		(shape output)
-		(at 224.79 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94f0dfc2-6490-4bce-a4f2-3b55bc5b2aad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.9113 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
+	(hierarchical_label "VBUS"
 		(shape input)
 		(at 71.12 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c7437ebb-2195-445d-9cdb-4d127b7e5487")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.2362 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "6652a0f3-6297-4aea-9585-afceb32c9089")
+	)
+	(hierarchical_label "ESP3V3"
+		(shape output)
+		(at 224.79 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "fe4edc03-a36c-472d-8da1-78bfe881d19f")
 	)
 	(symbol
 		(lib_id "power:GND")
