@@ -170,352 +170,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -760,12 +414,6 @@
 		(color 0 0 0 0)
 		(uuid "e3adef9e-e220-4cb7-9f8f-a7e50457a2bf")
 	)
-	(junction
-		(at -36.83 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6160232-5d9e-4739-88de-c276d1b31d8c")
-	)
 	(wire
 		(pts
 			(xy 186.69 104.14) (xy 190.5 104.14)
@@ -775,16 +423,6 @@
 			(type default)
 		)
 		(uuid "027b1d13-28cb-41b0-bbe1-3eeabcb60911")
-	)
-	(wire
-		(pts
-			(xy -36.83 232.41) (xy -36.83 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "039046e2-ef45-4ce7-837a-ac89cac401e6")
 	)
 	(wire
 		(pts
@@ -825,26 +463,6 @@
 			(type default)
 		)
 		(uuid "1abc7ff3-cfbd-40a0-9871-7f11a4e1167c")
-	)
-	(wire
-		(pts
-			(xy -22.86 220.98) (xy -22.86 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b6298ea-449d-4704-b458-9fa4ae3fea73")
-	)
-	(wire
-		(pts
-			(xy -16.51 234.95) (xy -22.86 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c63db92-b83c-4140-9a70-dea7e26c8d16")
 	)
 	(wire
 		(pts
@@ -1048,16 +666,6 @@
 	)
 	(wire
 		(pts
-			(xy -22.86 234.95) (xy -22.86 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "583a3f97-f50a-40e3-99ff-7931fa42b361")
-	)
-	(wire
-		(pts
 			(xy 111.76 154.94) (xy 143.51 154.94)
 		)
 		(stroke
@@ -1085,16 +693,6 @@
 			(type default)
 		)
 		(uuid "6ed85b03-37e0-4566-94ae-bd21ed4038bf")
-	)
-	(wire
-		(pts
-			(xy -41.91 232.41) (xy -36.83 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c94d729-c629-49fe-a6fe-3c37921ff750")
 	)
 	(wire
 		(pts
@@ -1135,16 +733,6 @@
 			(type default)
 		)
 		(uuid "872f1031-5534-4548-902d-b87f6d17df85")
-	)
-	(wire
-		(pts
-			(xy -25.4 232.41) (xy -16.51 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93236b38-a79e-495f-91ef-7c6992663d4c")
 	)
 	(wire
 		(pts
@@ -1348,16 +936,6 @@
 	)
 	(wire
 		(pts
-			(xy -16.51 229.87) (xy -22.86 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6cd1b1f-8910-423f-be61-2ef8f8782890")
-	)
-	(wire
-		(pts
 			(xy -43.18 77.47) (xy -29.21 77.47)
 		)
 		(stroke
@@ -1408,26 +986,6 @@
 	)
 	(wire
 		(pts
-			(xy -36.83 243.84) (xy -36.83 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb99f751-c9d0-4745-905f-e92e43a9dc6f")
-	)
-	(wire
-		(pts
-			(xy -36.83 232.41) (xy -33.02 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee7fad4e-3d0e-4bb5-8156-f4644e745658")
-	)
-	(wire
-		(pts
 			(xy 203.2 140.97) (xy 203.2 91.44)
 		)
 		(stroke
@@ -1455,16 +1013,6 @@
 			(type default)
 		)
 		(uuid "ff4c4410-1936-4681-91f5-90b8044ef8d0")
-	)
-	(label "3V3DIG"
-		(at -22.86 220.98 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07b40080-ee5b-42e1-be6d-23c3db8cbf4e")
 	)
 	(label "SDA"
 		(at -43.18 85.09 180)
@@ -1536,16 +1084,6 @@
 		)
 		(uuid "3a8f8e7e-ad3c-491e-bc6b-9ed8e2d9de2f")
 	)
-	(label "VOL-ADC"
-		(at -41.91 232.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e2129ed-b6b1-4493-a621-7c2d95bb1adb")
-	)
 	(label "SCL"
 		(at -43.18 82.55 180)
 		(effects
@@ -1595,72 +1133,6 @@
 			(justify right bottom)
 		)
 		(uuid "c33e666f-ebe7-4805-944f-e2c7ea420d43")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -36.83 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02bd0eb0-796d-4eac-8115-4f69b9b518a4")
-		(property "Reference" "#PWR025"
-			(at -36.83 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -36.83 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -36.83 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -36.83 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -36.83 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adb41324-4a4c-4e37-a8ed-1347930fdfca")
-		)
-		(instances
-			(project "ESP32S3PCM5122"
-				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1857,72 +1329,6 @@
 			(project "ESP32S3PCM5122"
 				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -22.86 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d20445f-cbb5-409f-a08f-5642a1946714")
-		(property "Reference" "#PWR024"
-			(at -22.86 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at -22.86 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -22.86 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -22.86 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -22.86 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b89fd9b-6a08-4306-9b18-8b2eb5edbfac")
-		)
-		(instances
-			(project "ESP32S3PCM5122"
-				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2265,79 +1671,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at -11.43 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfeddef5-7ccd-4555-bf1e-cde16e20b8b1")
-		(property "Reference" "J2"
-			(at -10.16 231.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VOL"
-			(at -10.16 233.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at -11.43 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -11.43 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at -11.43 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e7371cd-9571-42fd-97d2-9cc3374cffc0")
-		)
-		(pin "3"
-			(uuid "74683a21-c6f1-48f6-913f-be39e8aa15b9")
-		)
-		(pin "2"
-			(uuid "271b2683-bec1-4e6a-98ba-5f11f5e7d4fa")
-		)
-		(instances
-			(project "ESP32S3PCM5122"
-				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at -118.11 96.52 180)
 		(unit 1)
@@ -2399,76 +1732,6 @@
 			(project "ESP32S3PCM5122"
 				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at -36.83 240.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbd03593-2374-497a-967b-b9e06a593975")
-		(property "Reference" "C10"
-			(at -33.02 238.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at -33.02 241.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at -37.7952 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -36.83 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at -36.83 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1dab698-4724-4b9f-891e-3ad8ca760984")
-		)
-		(pin "2"
-			(uuid "c2f54a85-94b1-4c0b-9f2d-69fd9e7429e2")
-		)
-		(instances
-			(project "ESP32S3PCM5122"
-				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2604,73 +1867,6 @@
 			(project "ESP32S3PCM5122"
 				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at -29.21 232.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "feb1af25-4fef-4c98-bfd2-622c55586a9c")
-		(property "Reference" "R4"
-			(at -33.274 230.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at -29.21 232.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at -29.21 234.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -29.21 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at -29.21 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e863e89c-e728-4dc7-a52f-4089ae5acc9b")
-		)
-		(pin "2"
-			(uuid "c04eb856-9029-4571-bdca-eb1f3cf4c065")
-		)
-		(instances
-			(project "ESP32S3PCM5122"
-				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2855,6 +2051,16 @@
 		(pin "SDA" bidirectional
 			(at 186.69 140.97 0)
 			(uuid "e1990869-5635-4295-9b13-e8ad35da185a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOLADC" input
+			(at 186.69 134.62 0)
+			(uuid "40cab752-e51b-479f-afd6-2fb6b01f8a01")
 			(effects
 				(font
 					(size 1.27 1.27)
