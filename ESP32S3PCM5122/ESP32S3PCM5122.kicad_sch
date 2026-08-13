@@ -456,16 +456,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 172.72) (xy 31.75 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1abc7ff3-cfbd-40a0-9871-7f11a4e1167c")
-	)
-	(wire
-		(pts
 			(xy 186.69 30.48) (xy 195.58 30.48)
 		)
 		(stroke
@@ -483,16 +473,6 @@
 			(type default)
 		)
 		(uuid "1d6ff234-bdd6-4078-9a4c-48e6ade0c25f")
-	)
-	(wire
-		(pts
-			(xy 43.18 161.29) (xy 43.18 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246c75e0-2808-4880-9430-ab35111ca3b7")
 	)
 	(wire
 		(pts
@@ -706,16 +686,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 172.72) (xy 43.18 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f806a13-dbc9-49b4-b752-6514a72fa406")
-	)
-	(wire
-		(pts
 			(xy 190.5 146.05) (xy 186.69 146.05)
 		)
 		(stroke
@@ -886,16 +856,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 161.29) (xy 31.75 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e472e5-166d-4e63-bda5-0e2ab1d5d483")
-	)
-	(wire
-		(pts
 			(xy -113.03 93.98) (xy -109.22 93.98)
 		)
 		(stroke
@@ -1054,36 +1014,6 @@
 		)
 		(uuid "1f047f0c-5c74-43a8-ac80-bc4a7fbf7615")
 	)
-	(label "3V3DIG"
-		(at 31.75 161.29 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30b6eb41-813d-419e-8f49-314e917bc788")
-	)
-	(label "GPIO0"
-		(at 43.18 175.26 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3502c609-520b-4f19-9e31-07e92a7e0bee")
-	)
-	(label "EN"
-		(at 31.75 175.26 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a8f8e7e-ad3c-491e-bc6b-9ed8e2d9de2f")
-	)
 	(label "SCL"
 		(at -43.18 82.55 180)
 		(effects
@@ -1103,16 +1033,6 @@
 			(justify right bottom)
 		)
 		(uuid "5c3bc9da-fcee-4c72-b753-9781105f605b")
-	)
-	(label "3V3DIG"
-		(at 43.18 161.29 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fe8e3f6-06ef-45b6-ab71-a98ce2409388")
 	)
 	(label "LRCK"
 		(at -43.18 74.93 180)
@@ -1467,75 +1387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 43.18 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ba21c42-d7a9-49fd-a53f-b72869cb0c52")
-		(property "Reference" "R6"
-			(at 40.386 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 43.18 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 41.402 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 43.18 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "208d9eed-937a-45dd-b108-515191676aa0")
-		)
-		(pin "2"
-			(uuid "8e58e13f-d2cc-4daa-85ab-ee72b0a850e7")
-		)
-		(instances
-			(project "ESP32S3PCM5122"
-				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at -13.97 118.11 0)
 		(unit 1)
@@ -1596,75 +1447,6 @@
 			(project "ESP32S3PCM5122"
 				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9d4fbdc-c774-4ea1-ad32-869545ce5226")
-		(property "Reference" "R5"
-			(at 28.702 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 31.75 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 29.972 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae2458ff-57d6-439b-91f4-93f9384a9eb6")
-		)
-		(pin "2"
-			(uuid "e6dfee32-117e-4cff-8c97-e817044c9082")
-		)
-		(instances
-			(project "ESP32S3PCM5122"
-				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb"
-					(reference "R5")
 					(unit 1)
 				)
 			)

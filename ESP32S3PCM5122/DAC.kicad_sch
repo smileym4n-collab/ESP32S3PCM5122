@@ -1791,6 +1791,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 86.36) (xy 194.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff0900e-838c-4c3f-84e6-adb8f6e1cb6e")
+	)
+	(wire
+		(pts
 			(xy 16.51 85.09) (xy 25.4 85.09)
 		)
 		(stroke
@@ -1918,6 +1928,16 @@
 			(type default)
 		)
 		(uuid "437ec463-8062-4283-9e55-2987b11d07bf")
+	)
+	(wire
+		(pts
+			(xy 96.52 128.27) (xy 96.52 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4709394d-bb3c-4ead-9329-5b5108b4b7e2")
 	)
 	(wire
 		(pts
@@ -2468,6 +2488,16 @@
 			(type default)
 		)
 		(uuid "be484c85-5e23-445f-82dc-c477ad1f24c4")
+	)
+	(wire
+		(pts
+			(xy 96.52 120.65) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0335ac0-bd21-4533-8b3e-972c8dc950dd")
 	)
 	(wire
 		(pts
@@ -3817,6 +3847,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 96.52 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b719996-8805-4705-83dc-7ff52079a5d7")
+		(property "Reference" "#PWR063"
+			(at 96.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1b4546f-d5ed-4fc1-a027-f963ba9e8542")
+		)
+		(instances
+			(project "ESP32S3PCM5122"
+				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb/b094b6f7-34bb-412d-bd83-f28bbaa64610"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at -13.97 92.71 0)
 		(unit 1)
@@ -3944,6 +4040,76 @@
 			(project "ESP32S3PCM5122"
 				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb/b094b6f7-34bb-412d-bd83-f28bbaa64610"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1b02ad-f3b6-41cc-8472-3754d73bc4ab")
+		(property "Reference" "C11"
+			(at 100.33 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 100.33 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 97.4852 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c01b2dd-5aaf-453e-9613-58680acf4542")
+		)
+		(pin "2"
+			(uuid "a6d9ab0f-e77e-4f02-9a7b-74c3f04830a3")
+		)
+		(instances
+			(project "ESP32S3PCM5122"
+				(path "/22ae7355-5c92-4efc-9dfe-e6c07fb85fdb/b094b6f7-34bb-412d-bd83-f28bbaa64610"
+					(reference "C11")
 					(unit 1)
 				)
 			)
